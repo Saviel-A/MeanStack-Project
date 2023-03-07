@@ -1,0 +1,13 @@
+<div class="card-container">
+  <mat-card class="galleryCard">
+    <mat-grid-list cols="3" rowHeight="200">
+      <mat-grid-tile *ngFor="let gallery of galleryList">
+        <mat-card>
+          <mat-card-content>
+            <img [src]="gallery.thumbnailUrl" />
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-card>
+</div>

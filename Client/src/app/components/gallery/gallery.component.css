@@ -1,0 +1,12 @@
+.galleryCard {
+  padding: 5px;
+  text-align: center;
+  margin: auto; /* add margin to avoid overlapping with sidenav */
+}
+
+@media (min-width: 768px) {
+  .galleryCard {
+    width: 40%;
+    margin-top: 5%;
+  }
+}

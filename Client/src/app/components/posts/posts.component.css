@@ -1,0 +1,13 @@
+.postCard {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  margin: auto; /* add margin to avoid overlapping with sidenav */
+}
+
+@media (min-width: 768px) {
+  .postCard {
+    width: 50%;
+    margin-top: 5%;
+  }
+}
